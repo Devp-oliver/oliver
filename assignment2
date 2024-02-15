@@ -3,17 +3,21 @@ using System;
 namespace Work {
     class collect {
         public static void Main(string[] args) {
+            int l;   
+            double m;
+            string ass;
+           
             int i = 6;
             double f = 4.5;
-            string s = "polytechnic";
+            string s = "polytechnic ";
 
             Console.Write("Supply the integer value: ");
-            int l = int.Parse(Console.ReadLine()); 
+            l = int.Parse(Console.ReadLine()); 
             Console.Write("Supply the double value: ");
-            double m = double.Parse(Console.ReadLine()); 
+            m = double.Parse(Console.ReadLine()); 
 
             Console.Write("Enter the string value: ");
-            string ass = Console.ReadLine();
+            ass = Console.ReadLine();
 
             int sumInt = i + l;
             double sumdouble = d + m;
